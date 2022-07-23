@@ -143,7 +143,14 @@ h1{
   color: black;
 }
 
-
-
+.containerGreeting{
+  width: 70%;
+  height: 50%;
+}
+@media (max-width: 600px) {
+  .containerGreeting h1 {
+    font-size: larger;
+  }
+}
 
 
